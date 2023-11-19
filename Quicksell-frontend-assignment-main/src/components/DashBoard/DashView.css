@@ -1,0 +1,71 @@
+.dashContainer{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    
+    /* flex-wrap: wrap; */
+    /* background: lavender; */
+    padding: 5px 10px;
+}
+.dashCardContainer{
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width : 300px;
+}
+
+
+/* cardhead default box cover with colour and margin 0 */
+.dashCardHead{
+    width:100%;
+    border: 1px solid rgb(72, 72, 72);
+    border-radius: 8px;
+    padding: 4px;
+    display: "flex";
+    color: rgb(0, 0, 0);
+    background:#B5D6A7; 
+    /* default colour for background */
+        
+}
+
+
+/* marking specific colours */
+.UrgentText{
+    margin-left:100px;
+    background : rgb(255, 98, 0);
+}
+.HighText{
+    margin-left:100px;
+    background:#FD9800;
+}
+.MediumText{
+    margin-left:95px;
+    background:#FEF99B;
+}
+.LowText{
+    margin-left:100px;
+    background:#B5D6A7;
+}
+.NoText{
+    margin-left:90px;
+    background: transparent;
+}
+
+.Todo{
+    margin-left:110px;
+    background: yellow;
+
+}
+.InProgress{
+    margin-left:80px;
+    background: rgb(39, 250, 2);
+
+}
+.Backlog{
+    margin-left:90px;
+    background: rgb(255, 0, 0);
+    
+}

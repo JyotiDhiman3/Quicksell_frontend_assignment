@@ -1,0 +1,39 @@
+.cardContainer{
+    width: 100%;
+    border: 1px solid rgb(72, 72, 72);
+    border-radius: 8px;
+    /* margin-top: 10px; */
+    padding: 10px;
+    box-shadow: rgba(63, 157, 250, 0.425) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    /* background: #cbc1f1; */
+    background: url("./todo_image.jpg");
+    background-size: cover;
+}
+
+.cardContainer > *{
+    width: 100%;
+}
+
+.showStatus{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 10px;
+    height: 10px;
+    background: silver;
+    border-radius: 50%;
+}
+
+.cardTags{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.tags{
+    color : rgb(0, 0, 0);
+    width: max-content;
+    padding: 2px 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
